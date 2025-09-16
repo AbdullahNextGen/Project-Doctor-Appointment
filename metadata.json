@@ -1,0 +1,5 @@
+{
+  "name": "ClinicQueue - Appointment Management",
+  "description": "A comprehensive Doctor Appointment & Serial Management system. This application provides distinct panels for Admins/Receptionists, Doctors, Patients, and a public Monitor Screen to streamline clinic workflows, manage patient queues in real-time, and send timely notifications.",
+  "requestFramePermissions": []
+}

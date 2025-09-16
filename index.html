@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClinicQueue - Appointment Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'brand-blue': '#1a73e8',
+              'brand-green': '#1e8e3e',
+              'brand-yellow': '#f9ab00',
+              'brand-red': '#d93025',
+              'brand-gray': {
+                50: '#f8f9fa',
+                100: '#f1f3f4',
+                200: '#e8eaed',
+                300: '#dadce0',
+                400: '#bdc1c6',
+                500: '#9aa0a6',
+                600: '#80868b',
+                700: '#5f6368',
+                800: '#3c4043',
+                900: '#202124',
+              },
+            },
+            boxShadow: {
+              'soft': '0 4px 12px 0 rgba(0, 0, 0, 0.07)',
+              'soft-lg': '0 10px 25px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.07)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-gray-50 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
